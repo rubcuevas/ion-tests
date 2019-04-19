@@ -39,3 +39,9 @@
     { a:4, a:a::4 },
     { a:4, a:4 },
 ]
+
+// key holding a list vs key mapped to multiple values
+[
+    { a: [1, 2] },
+    { a: 1, a: 2 },
+]
